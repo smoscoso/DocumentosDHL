@@ -1,0 +1,117 @@
+2025-01-30 23:04:10,710 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:05:45,191 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:06:03,876 - INFO - Documento insertado ID: 679c4c2889c9b1d4ab608c9a
+2025-01-30 23:06:12,476 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-01-30 23:07:37,887 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:07:56,815 - INFO - Documento insertado ID: 679c4c9a81a15b653ac3e886
+2025-01-30 23:08:06,195 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-01-30 23:13:09,327 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:14:20,129 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:14:38,381 - INFO - Documento insertado ID: 679c4e2bdf799f2a02b31cf0
+2025-01-30 23:14:45,093 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-01-30 23:19:37,609 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:19:57,591 - INFO - Documento insertado ID: 679c4f6aadbad8ccc6d1d232
+2025-01-30 23:20:04,482 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-01-30 23:23:07,167 - INFO - Conexión a MongoDB establecida
+2025-01-30 23:24:49,487 - INFO - Documento insertado ID: 679c508f8204fc3354f4c90b
+2025-01-30 23:24:56,531 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-01-30 23:25:58,676 - INFO - Documento insertado ID: 679c50d58204fc3354f4c90c
+2025-01-30 23:26:05,682 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-05 16:52:12,384 - ERROR - Error de conexión: All nameservers failed to answer the query _mongodb._tcp.cluster0.v6amn.mongodb.net. IN SRV: Server Do53:192.168.18.1@53 answered [WinError 10065] Se ha intentado una operación de socket en un host no accesible
+2025-02-05 16:52:59,486 - ERROR - Error de conexión: All nameservers failed to answer the query _mongodb._tcp.cluster0.v6amn.mongodb.net. IN SRV: Server Do53:192.168.18.1@53 answered [WinError 10065] Se ha intentado una operación de socket en un host no accesible
+2025-02-05 16:54:19,881 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-00.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: cluster0-shard-00-01.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67a3dded481f7807b2892a1a, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-00.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-01.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-01.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-02.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-02-05 16:55:43,454 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-01.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: cluster0-shard-00-00.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67a3de41cf1c9767565e1702, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-00.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-01.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-01.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-02.v6amn.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-02-05 16:59:19,993 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: connectTimeoutMS: 20000.0ms)
+2025-02-05 17:02:26,907 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: connectTimeoutMS: 20000.0ms)
+2025-02-05 17:06:46,702 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: connectTimeoutMS: 20000.0ms)
+2025-02-05 17:09:27,643 - ERROR - Error de conexión: SSL handshake failed: cluster0-shard-00-02.v6amn.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: connectTimeoutMS: 20000.0ms)
+2025-02-05 17:13:01,835 - ERROR - Error de conexión: The resolution lifetime expired after 21.144 seconds: Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.; Server Do53:192.168.176.204@53 answered The DNS operation timed out.
+2025-02-05 17:22:36,942 - INFO - Conexión a MongoDB establecida
+2025-02-05 17:27:29,110 - INFO - Documento insertado ID: 67a3e5ceb6a75e542e7108f2
+2025-02-05 17:27:37,909 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-05 17:29:57,641 - INFO - Documento insertado ID: 67a3e664b6a75e542e7108f3
+2025-02-05 17:30:05,469 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-07 11:16:12,934 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:18:40,885 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:19:20,782 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:20:25,844 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:21:59,983 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:24:50,223 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:30:41,382 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:31:03,505 - INFO - Documento insertado ID: 67a63546c60f92300f3c55c3
+2025-02-07 11:31:10,444 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-07 11:52:30,758 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:53:11,803 - INFO - Conexión a MongoDB establecida
+2025-02-07 11:56:37,719 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:03:39,652 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:04:42,553 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:05:20,088 - INFO - Documento insertado ID: 67a63d4fa0a0fec553358c28
+2025-02-07 12:06:42,290 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:25:18,427 - INFO - Documento insertado ID: 67a641fd0f709bb20d8b682e
+2025-02-07 12:25:47,163 - INFO - Documento insertado ID: 67a6421a0f709bb20d8b682f
+2025-02-07 12:25:59,424 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:26:17,091 - INFO - Documento insertado ID: 67a64238e79c27ca0c6bf72a
+2025-02-07 12:26:23,730 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-07 12:29:35,403 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:29:49,879 - INFO - Documento insertado ID: 67a6430d3cd1860750034855
+2025-02-07 12:35:31,998 - ERROR - Error de conexión: All nameservers failed to answer the query _mongodb._tcp.cluster0.v6amn.mongodb.net. IN SRV: Server Do53:192.168.18.1@53 answered The DNS operation timed out.; Server Do53:192.168.18.1@53 answered [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2025-02-07 12:36:57,946 - INFO - Conexión a MongoDB establecida
+2025-02-07 12:37:13,730 - INFO - Documento insertado ID: 67a644c85de6702712a548c6
+2025-02-07 12:37:20,171 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-07 12:38:31,050 - INFO - Documento insertado ID: 67a645165de6702712a548c7
+2025-02-07 12:38:37,870 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-07 12:45:59,218 - INFO - Conexión a MongoDB establecida
+2025-02-10 17:31:21,586 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:14:25,347 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:14:45,059 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:16:56,284 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:27:16,875 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:27:39,957 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:35:00,503 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:44:16,618 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:54:28,640 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:55:50,318 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:57:30,238 - INFO - Conexión a MongoDB establecida
+2025-02-12 17:59:25,360 - INFO - Conexión a MongoDB establecida
+2025-02-12 18:00:55,913 - INFO - Conexión a MongoDB establecida
+2025-02-12 18:03:15,492 - INFO - Conexión a MongoDB establecida
+2025-02-12 18:03:59,858 - INFO - Conexión a MongoDB establecida
+2025-02-12 18:06:42,613 - INFO - Conexión a MongoDB establecida
+2025-02-12 18:07:32,648 - INFO - Conexión a MongoDB establecida
+2025-02-12 20:04:13,784 - INFO - Conexión a MongoDB establecida
+2025-02-12 20:11:32,057 - INFO - Conexión a MongoDB establecida
+2025-02-12 20:12:32,206 - INFO - Conexión a MongoDB establecida
+2025-02-16 16:53:25,551 - INFO - Conexión a MongoDB establecida
+2025-02-16 16:54:05,170 - INFO - Documento insertado ID: 67b25e7c1b1a8cc165d00050
+2025-02-16 16:54:06,991 - ERROR - Error enviando email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6fb36068f1fsm17959567b3.41 - gsmtp')
+2025-02-16 17:02:13,339 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:03:45,548 - INFO - Documento insertado ID: 67b260c08aa60651e601254a
+2025-02-16 17:03:46,956 - ERROR - Error enviando email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6fb3619ec5bsm17794207b3.91 - gsmtp')
+2025-02-16 17:04:34,468 - INFO - Documento insertado ID: 67b260f28aa60651e601254b
+2025-02-16 17:04:35,716 - ERROR - Error enviando email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6fb7f2eeabcsm961727b3.78 - gsmtp')
+2025-02-16 17:06:37,810 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:06:59,750 - INFO - Documento insertado ID: 67b261821fd30edb40b1fa92
+2025-02-16 17:07:08,828 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-16 17:09:06,106 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:09:51,119 - INFO - Documento insertado ID: 67b2622e87be3ac6db0b2455
+2025-02-16 17:09:58,671 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-16 17:17:05,038 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:17:41,350 - INFO - Documento insertado ID: 67b26404ce2a0d4ee6bf9f89
+2025-02-16 17:17:49,373 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-16 17:40:14,106 - INFO - Documento insertado ID: 67b2694cce2a0d4ee6bf9f8a
+2025-02-16 17:40:22,737 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-16 17:42:52,387 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:43:08,401 - INFO - Documento insertado ID: 67b269fbd546d486cf02596f
+2025-02-16 17:43:16,042 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-16 17:44:59,382 - INFO - Conexión a MongoDB establecida
+2025-02-16 17:45:15,820 - INFO - Documento insertado ID: 67b26a7baaa5948bf300def4
+2025-02-16 17:45:23,411 - INFO - Email enviado a sergiomoscoso1022@gmail.com
+2025-02-18 11:15:00,767 - INFO - Conexión a MongoDB establecida
+2025-02-18 11:15:09,610 - INFO - Conexión a MongoDB establecida
+2025-02-18 18:37:52,679 - INFO - Documento insertado ID: 67b519cf6c03dd4cc015d3ac
+2025-02-18 18:38:01,114 - INFO - Email enviado a jperez@correo.com
+2025-02-18 18:41:46,633 - INFO - Documento insertado ID: 67b51ab96c03dd4cc015d3ad
+2025-02-18 18:41:54,688 - INFO - Email enviado a sergiomoscoso1022@hotmail.com
+2025-02-18 18:45:21,503 - INFO - Conexión a MongoDB establecida
+2025-02-18 19:36:06,225 - INFO - Conexión a MongoDB establecida
+2025-02-18 19:37:35,641 - INFO - Conexión a MongoDB establecida
